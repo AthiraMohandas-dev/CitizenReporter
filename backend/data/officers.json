@@ -1,0 +1,37 @@
+{
+  "Environmental Pollution": {
+    "department": "Kerala State Pollution Control Board",
+    "emergencyNumber": "1076",
+    "districts": {
+      "Kottayam": {
+        "email": "eeektm.kspcb@kerala.gov.in"
+      },
+      "Ernakulam": {
+        "email": "eeeklm.kspcb@kerala.gov.in"
+      },
+      "Thiruvananthapuram": {
+        "email": "eetvm.kspcb@kerala.gov.in"
+      }
+    }
+  },
+
+  "Garbage Dumping": {
+    "department": "Local Municipality",
+    "emergencyNumber": "1076",
+    "districts": {
+      "Kottayam": {
+        "email": "secretary@kottayammunicipality.lsgkerala.gov.in"
+      }
+    }
+  },
+
+  "Road Damage": {
+    "department": "Public Works Department",
+    "emergencyNumber": "1076",
+    "districts": {
+      "Kottayam": {
+        "email": "eepwdktm@gmail.com"
+      }
+    }
+  }
+}
