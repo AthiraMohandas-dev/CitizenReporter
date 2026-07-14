@@ -1,0 +1,16 @@
+export const districts = [
+  { label: "Thiruvananthapuram", value: "Thiruvananthapuram" },
+  { label: "Kollam", value: "Kollam" },
+  { label: "Pathanamthitta", value: "Pathanamthitta" },
+  { label: "Alappuzha", value: "Alappuzha" },
+  { label: "Kottayam", value: "Kottayam" },
+  { label: "Idukki", value: "Idukki" },
+  { label: "Ernakulam", value: "Ernakulam" },
+  { label: "Thrissur", value: "Thrissur" },
+  { label: "Palakkad", value: "Palakkad" },
+  { label: "Malappuram", value: "Malappuram" },
+  { label: "Kozhikode", value: "Kozhikode" },
+  { label: "Wayanad", value: "Wayanad" },
+  { label: "Kannur", value: "Kannur" },
+  { label: "Kasaragod", value: "Kasaragod" },
+];
