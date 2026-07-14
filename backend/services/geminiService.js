@@ -4,7 +4,7 @@ const ai = new GoogleGenAI({
     apiKey: process.env.GEMINI_API_KEY,
 });
 
-async function generateComplaint(issue) {
+async function generateComplaint(issue, category) {
     const prompt = `
 You are helping Indian citizens report civic issues.
 
@@ -15,7 +15,6 @@ Generate ONLY valid JSON.
 Ask authority to take action.
 
 Fields:
-
 category
 district
 subject
@@ -28,6 +27,9 @@ Rules:
 3. If district isn't mentioned, return "Unknown".
 4. Don't explain anything.
 5. Return JSON only.
+
+Category: 
+${category}
 
 Issue:
 

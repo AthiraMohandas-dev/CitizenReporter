@@ -3,13 +3,13 @@ const { getOfficer } = require("./officerService");
 const parseGeminiResponse = require("../utils/parseGeminiResponse");
 const { generateMailto } = require("./mailService");
 
-async function generateFullReport(issue) {
-    const aiResponse = await generateComplaint(issue);
+async function generateFullReport(issue, category) {
+    const aiResponse = await generateComplaint(issue, category);
 
     const parsed = parseGeminiResponse(aiResponse);
 
     const officer = getOfficer(
-        parsed.category,
+        category,
         parsed.district
     );
 

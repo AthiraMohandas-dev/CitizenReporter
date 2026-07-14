@@ -3,7 +3,7 @@ const { generateFullReport } = require("../services/reportService");
 async function createReport(req, res) {
     try {
 
-        const { issue } = req.body;
+        const { issue, category } = req.body;
 
         if (!issue) {
             return res.status(400).json({
@@ -12,7 +12,7 @@ async function createReport(req, res) {
             });
         }
 
-        const report = await generateFullReport(issue);
+        const report = await generateFullReport(issue, category);
 
         res.json({
             success: true,
