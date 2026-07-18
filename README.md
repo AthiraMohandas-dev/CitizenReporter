@@ -6,7 +6,7 @@ confirmation. No native build tools needed to try it - Expo Go handles that.
 ## Run it
 
 ```bash
-cd fromdend
+cd frontend
 npm install
 npx expo start
 ```
